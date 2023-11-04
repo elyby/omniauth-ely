@@ -2,7 +2,7 @@
 
 This is the official OmniAuth strategy for authenticating to Ely.by. To
 use it, you'll need to sign up for an OAuth2 Application ID and Secret
-on the [Ely.by Account Applications Page](#).
+on the [Ely.by Account Applications Page](https://account.ely.by/dev/applications).
 
 ## Usage
 
