@@ -40,7 +40,7 @@ module OmniAuth
       end
 
       def profile_url
-        'http://ely.by/u' + raw_info['id'].to_s
+        'https://ely.by/u' + raw_info['id'].to_s
       end
 
       def callback_url

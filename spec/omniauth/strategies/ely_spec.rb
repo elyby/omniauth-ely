@@ -37,7 +37,7 @@ describe OmniAuth::Strategies::Ely do
       raw_info = Hash.new
       raw_info['id'] = 1
       allow(subject).to receive(:raw_info).and_return(raw_info)
-      expect(subject.profile_url).to eq('http://ely.by/u1')
+      expect(subject.profile_url).to eq('https://ely.by/u1')
     end
 
     it 'should build valid skin link' do

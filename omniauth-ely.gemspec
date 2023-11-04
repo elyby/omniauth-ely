@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{Official OmniAuth strategy for Ely.by.}
   gem.summary       = %q{Official OmniAuth strategy for Ely.by.}
 
-  gem.add_dependency 'omniauth', '~> 1.0'
+  gem.add_dependency 'omniauth', '>= 1.0', '< 3.0'
   gem.add_dependency 'omniauth-oauth2', '>= 1.1.1', '< 2.0'
   gem.add_development_dependency 'rspec', '~> 2.7'
   gem.add_development_dependency 'rack-test'
